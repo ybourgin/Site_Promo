@@ -1,0 +1,118 @@
+/**Ce fichier est en premier lieu conçut pour un format SmartPhone ; il faut vivre avec son temps ;) "YB"**/
+*{
+    margin: 0;
+    margin: 0;
+}
+h1{
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+p{
+    margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+/** Couleur **/
+.gris2{
+    color: rgb(60, 60, 60);
+    fill: rgb(60, 60, 60);
+}
+.fondGris1{
+    background-color: grey;
+}
+.rouge1{
+    color: #ff0000;
+    fill: #ff0000;
+}
+.fondRouge1{
+    background-color: #ff0000;
+}
+.vert1{
+    color: #00ff00;
+    fill: #00ff00;
+}
+.fondVert1{
+    background-color: #00ff00;
+}
+.jaune1{
+    color: #ffff00;
+    fill: #ffff00;
+}
+.fondJaune1{
+    background-color: #ffff00;
+}
+.bleu1{
+    color: #0000ff;
+    fill: #0000ff;
+}
+.fondBleu1{
+    background-color: #0000ff;
+}
+.orangeHB{
+    color: #ffd715;
+    fill: #ffd715;
+}
+.fondOrangeHB{
+background-color: #ffd715;
+}
+/** pour la page Index /!\ indexHeader est utilisé par les autres pages/!\**/
+#indexBody{
+    box-sizing: border-box;
+}
+#indexHeader{
+    display: flex;
+    width: inherit;
+    height: 60px;
+}
+#indexMain{
+    margin: 10%;
+}
+/** Menu central svg contenu dans l'index **/
+.menuCercle{
+    height: 100%;
+    width: 100%;
+}
+#boutonRouge path{
+    fill: #ff0000;
+}
+#boutonRouge path:hover{
+    fill: #ff000080;
+}
+#boutonVert path{
+    fill: #00ff00;
+}
+#boutonVert path:hover{
+    fill: #00ff0080;
+}
+#boutonBleu path{
+    fill: #0000ff;
+}
+#boutonBleu path:hover{
+    fill: #0000ff80;
+}
+#boutonJaune path{
+    fill: #ffff00;
+}
+#boutonJaune path:hover{
+    fill: #ffff0080;
+}
+#fuseeDansCercle path{
+    fill: #ffd715;
+}
+#fuseeDansCercle path:hover{
+    fill: #ffffff;
+}
+footer{
+    display: flex;
+    background: #ffd715;
+    width: inherit;
+    height: 60px;
+}
+.bleu{
+    fill: #0000ff;
+    color: #0000ff;
+}
